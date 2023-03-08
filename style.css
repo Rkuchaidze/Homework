@@ -1,25 +1,30 @@
 .box {
     margin: auto;
-    border: 1px solid #DCDCDC;
-    width: 430px;
-    height: 618px;
-    background-color: #FAFAFA;
+    width: 366px;
+    height: 420px;
+    background-color: #FAF4EF;
+    border-radius: 0px 0px 0px 50px;
 }
 
-.box img {
-    width: 159.24px;
-    height: 146.57px;
-    padding: 43px 140.5px 39px 132.5px;
-    
-    
-}
-
-.box h2 {
+.box h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 43px 43px 0px 43px;
     margin: 0px;
-    padding: 0px 82px 0px 117px;
+    color: #4B4B4B;
 }
 
 .box p {
-    padding: 43px;
-    text-align: center;
+    font-size: 24px;
+    font-weight: 400px;
+    padding: 14px 0px 0px 43px;
+    margin: 0px;
+    color: #737373;
+}
+
+.box img {
+    padding: 50px 67px 0px 67px;
+    width: 231.13px;
+    height: 285px;
 }
