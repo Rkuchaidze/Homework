@@ -1,0 +1,25 @@
+.box {
+    margin: auto;
+    border: 1px solid #DCDCDC;
+    width: 430px;
+    height: 618px;
+    background-color: #FAFAFA;
+}
+
+.box img {
+    width: 159.24px;
+    height: 146.57px;
+    padding: 43px 140.5px 39px 132.5px;
+    
+    
+}
+
+.box h2 {
+    margin: 0px;
+    padding: 0px 82px 0px 117px;
+}
+
+.box p {
+    padding: 43px;
+    text-align: center;
+}
