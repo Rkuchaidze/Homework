@@ -1,5 +1,39 @@
+header h1 {
+    font-size: 64px;
+    padding-left: 104px;
+    color: #4B4B4B;
+}
+
+header ul {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header ul li {
+    display: inline;
+    font-size: 24px;
+    padding-right: 55px;
+    color: rgba(75, 75, 75, 0.5);
+}
+
+.selected {
+    color: #4B4B4B;
+}
+
+.products {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 86px 0px 0px 47px;
+}
+
 .box {
-    margin: 200px auto;
+    margin-bottom: 129px;
+    margin-right: 57px;
     width: 366px;
     height: 420px;
     background-color: #FAF4EF;
@@ -27,4 +61,31 @@
     padding: 69px 67px 0px 30px;
     width: 299px;
     height: 299px;
+}
+
+#img1 {
+    width: 231.13px;
+    padding: 59px 67px 53px 57px;
+}
+
+#img2 {
+    width: 299px;
+    height: 299px;
+}
+
+#img4 {
+    width: 340px;
+    height: 340px;
+}
+
+#img5 {
+    width: 333px;
+    height: 205px;
+    padding: 94px 0px 0px 25px;
+}
+
+#img6 {
+    width: 327px;
+    height: 261px;
+    padding: 82px 67px 0px 30px;
 }
