@@ -1,7 +1,8 @@
-header h1 {
+header h1 a {
     font-size: 64px;
     padding-left: 104px;
     color: #4B4B4B;
+    text-decoration: none;
 }
 
 header ul {
@@ -15,7 +16,18 @@ header ul li {
     display: inline;
     font-size: 24px;
     padding-right: 55px;
-    color: rgba(75, 75, 75, 0.5);
+    
+}
+
+header ul li a {
+    font-family: roboto;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(75, 75, 75, 0.5);   
+}
+
+header ul li :hover {
+    color: #4B4B4B;
 }
 
 .selected {
@@ -24,7 +36,7 @@ header ul li {
 
 .products {
     margin: auto;
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -41,8 +53,9 @@ header ul li {
 }
 
 .box h3 {
-    font-size: 36px;
+    font-family: 'DM Serif Display';
     font-weight: 400;
+    font-size: 36px;
     line-height: 36px;
     padding: 43px 43px 0px 43px;
     margin: 0px;
@@ -50,8 +63,9 @@ header ul li {
 }
 
 .box p {
-    font-size: 24px;
+    font-family: 'DM Serif Display';
     font-weight: 400px;
+    font-size: 24px;
     padding: 14px 0px 0px 43px;
     margin: 0px;
     color: #737373;
@@ -73,9 +87,15 @@ header ul li {
     height: 299px;
 }
 
+#img3 {
+    width: 329px;
+    height: 329px;
+}
+
 #img4 {
     width: 340px;
     height: 340px;
+    padding: 27px 0px 0px 10px;
 }
 
 #img5 {
