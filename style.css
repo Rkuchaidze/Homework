@@ -161,7 +161,7 @@ main p {
 
 nav {
     display: inline;
-    padding-left: 437px;
+    padding-left: 380px;
 }
 
 nav ul {
@@ -189,6 +189,7 @@ footer {
 
 footer p {
     margin: 0px;
+    padding-left: 44.64px;
     float: left;
     font-family: 'Roboto';
     font-weight: 400;
