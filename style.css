@@ -1,211 +1,56 @@
-* {
-    margin:0 px;
+table {
+    margin-left: 325px;
 }
 
-body {
-    margin: 0px;
-    background-color: #5052E2;
+ h2 {
+    
+    margin-left: 334px;
 }
 
-.profile {
-    padding: 29.5px 27.36px 0px 0px;
-    float: right;
-    display: flex;
-    align-items: center;
+thead tr th {
+    padding: 20px;
+    border: 1px solid #DADADA;
+    background-color: #F9F9F9F9;
 }
 
-.profile a {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
-}
-
-.profile img {
-    margin-right: 10.28px;
-    border-radius: 50%;
-}
-
-.fa-solid {
-    color: white;
-}
-
-header h2 {
-    display: inline-block;
-    width: 70%;
-    margin: 0px;
-    padding: 26.78px 0px 0px 70.93px;
-    font-family: Poppins;
-    color: white;
-    font-size: 27.451px;
-    font-weight: 900;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 102px 0px 0px 0px;
-}
-
-main h1 {
-    margin: 0px;
-    color: white;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 82px;
-    letter-spacing: -4px;
-}
-
-main p {
+tbody tr td {
+    padding: 15px;
+    border: 1px solid #DADADA;
     text-align: center;
-    width: 600px;
-    margin-top: 18px;
-    margin-bottom: 60px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 22px;
-    letter-spacing: -0.2px;
-    line-height: 34px;
 }
 
-.comments {
-    display: flex;
-    justify-content: center;
+.created {
+    width: 276px;
 }
 
-.box {
-    width: 360px;
-    height: 280px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    margin-left: 30px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+.action {
+    width: 368px;
 }
 
-.user {
-    padding: 30px 0px 0px 30px;
+tbody tr td a {
+    padding-left: 8px;
+
 }
 
-.user img {
-    float: left;
-    border-radius: 50%;
-}
-
-.username {
-    padding-left: 80px;
-    margin: 0px;
-    height: 20px;
-    font-family: 'Poppins';
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.tag {
-    padding-left: 80px;
-    margin: 0px;
-    height: 20px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    font-style: none;
-    color: #9B9B9B;
-}
-
-.text {
-    padding: 23px 30px 20px 30px;
-    font-family: 'Roboto';
-    font-style: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #1B1B1B;
-}
-
-.date {
-    padding-bottom: 32px;
-    padding-left: 30px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    color: #9B9B9B;
-}
-
-.register {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.register span {
-    padding-right: 20px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    opacity: 0.8;
-}
-
-.register a {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-nav {
-    display: inline;
-    padding-left: 398px;
-}
-
-nav ul {
-    margin: 0px;
+.btn1 {
+    padding-top: 10px;
     display: inline-block;
-}
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+    width: 115px;
+    height: 26px;
+    background-color: #FFD43A;
+    border-radius: 10px;
     text-decoration: none;
-    padding-left: 28px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    color: #FFFFFF;
+    color: black;
 }
 
-footer {
-    margin-top: 180px;
-}
-
-footer p {
-    margin: 0px;
-    padding-left: 44.64px;
-    float: left;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.socials {
-    float: right;
-    color: #FFFFFF;
-    padding-right: 60px;
-}
-
-
-.socials i {
-    letter-spacing: 18px;
+.btn2 {
+    margin-left: 8px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 115px;
+    height: 26px;
+    background-color: #E84949;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
 }
