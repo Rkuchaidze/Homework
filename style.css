@@ -70,8 +70,10 @@ nav ul li a {
 }
 
 footer {
-    margin-top: 180px;
+    position: absolute;
+    bottom: 0;
 }
+
 
 footer p {
     margin: 0px;
@@ -87,7 +89,7 @@ footer p {
 .socials {
     float: right;
     color: #FFFFFF;
-    padding-right: 30px;
+    margin-left: 564px;
 }
 
 
@@ -96,9 +98,21 @@ footer p {
 }
 
 main {
-    margin-top: 267px;
-    display: flex;
-    justify-content: space-evenly;
+    margin-top: 198px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.text {
+    float: left;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.input-field {
+    float: right;
+    margin-right: 300px;
+    padding-bottom: 30px;
 }
 
 .text h1 {
