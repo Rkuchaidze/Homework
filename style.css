@@ -30,6 +30,11 @@ body {
     border-radius: 50%;
 }
 
+.profile-btn {
+    display: flex;
+    padding-left: 4px;
+}
+
 .fa-solid {
     color: white;
 }
