@@ -1,232 +1,288 @@
-body {
-    margin: 0px;
+* {
+    margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: linear-gradient(0deg, rgba(59, 57, 49, 0.404), rgba(0, 0, 0, 0.63)), url(./Assets/Images/1.png);
 }
 
-.profile {
-    padding-right: 23px;
+body {
+    background-color: #2B2B2B;
+}
+
+header { 
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
     display: flex;
     align-items: center;
 }
 
-.profile a {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 400;
+.title h1 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
     text-decoration: none;
     color: white;
 }
 
-.profile img {
-    margin-right: 10.28px;
-    border-radius: 50%;
-}
-
-.profile-btn {
-    display: flex;
-    padding-left: 4px;
-}
-
-.fa-solid {
-    color: white;
-}
-
-header {
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header div h2 {
-    padding-left: 23px;
-}
-
-header div {
-    padding-left: 23px;
-}
-
-header h2 {
-    display: inline-block;
-    width: 70%;
-    margin: 0px;
-    /* padding: 26.78px 0px 0px 70.93px; */
-    font-family: 'Poppins';
-    color: white;
-    font-size: 27.451px;
-    font-weight: 900;
-}
-
-nav a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    /* padding-left: 28px; */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    color: #FFFFFF;
-}
-
-footer {
-    margin-top: 225px;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-footer p {
-    margin: 0px;
-    float: left;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    padding-left: 44px;
+.title img {
+    width: 32px;
+    height: 32px;
+    padding-left: 50px;
+    padding-right: 12px;
 }
 
 .navbar {
+    width: 607px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 150px;
-
 }
 
 .navbar a {
-    padding-left: 31px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
-
-.socials {
-    /* float: right; */
-    color: #FFFFFF;
-    padding-right: 22px;
+.signup-btn {
+    margin-right: 50px;
+    border: 1px solid #A259FF;
+    background-color: #A259FF;
+    border-radius: 20px;
+    width: 152px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.socials i {
-    letter-spacing: 18px;
+.signup-btn a {
+    padding-left: 12px;
 }
 
 main {
-    margin-top: 198px;
+    width: 100%;
+    height: 691px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image {
+    width: 610px;
+    height: 691px;
+}
+
+.create-account {
+    width: 610px;
+    height: 571px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+
+.create-account h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    color: white;
+}
+
+.create-account p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+}
+
+.create-account form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 330px;
+    height: 305px;
+}
+
+.create-account input {
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    /* margin: 16px 20px; */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+::placeholder {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.create-account button {
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: white;
+    /* margin: 16px 20px; */
+}
+
+footer {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    background-color: #3B3B3B;
+
+}
+
+.footer-content {
+    padding-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.text h1 {
-    margin: 0px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 82px;
-    letter-spacing: -4px;
-    color: #FFFFFF;
-    width: 246px;
+.footer-title {
+    display: flex;
 }
 
-.text p {
-    font-family: 'Roboto';
+.footer-title h1 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+    color: white;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 327.41px;
+    height: 191px;
+}
+
+.box1 p {
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 34px;
-    letter-spacing: -0.2px;
-    color: #FFFFFF;
-}
-
-.signup-text {
-    margin-bottom: 29px;
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: 600;
     font-size: 16px;
-    line-height: 21px;
-    letter-spacing: 2px;
+    color: #CCCCCC;
+}
+
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 240px;
+    height: 166px;
+    margin-bottom: 30px;
+}
+
+.explore h5 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
     color: #FFFFFF;
 }
 
-.terms-text {
-    margin-top: 30px;
-    text-align: center;
-    font-family: 'Roboto';
+.explore a {
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #9B9B9B;
-}
-
-.terms-button {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
     text-decoration: none;
 }
 
-form {
-    margin: 0px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    display: inline-block;
-    width: 460px;
-    height: 244px;
-    border-radius: 4px;
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    height: 184px;
 }
 
-form input {
-    border: none;
-    background: none;
-    width: 460px;
-    height: 60px;
-    color: white;
-}
-
-.input-bottom {
-    border-bottom: 1px solid #ffffff28;
-    width: 455px;
-}
-
-::placeholder {
-    padding-left: 20px;
-    padding-top: 17px;
+.newsletter h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
     color: #FFFFFF;
-    font-family: 'Roboto';
+}
+
+.newsletter p {
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    opacity: 0.5;
+    font-size: 16px;
+    color: #CCCCCC;
 }
 
-form button {
-    margin-left: -2px;
-    width: 464px;
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 420px;
     height: 60px;
-    background-color: #FF3B30;
-    border-radius: 0px 0px 4px 4px;
-    border: 0px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+}
+
+.newsletter-input input {
+    width: 420px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.newsletter-input button {
+    border-radius: 20px;
+    width: 179px;
+    height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #A259FF;
     color: white;
+}
+
+hr {
+    margin-top: 33.5px;
+    margin-right: 115.29px;
+    margin-left: 115.29px;
+    color: #858584;
+    opacity: 0.5
+}
+
+#trademark {
+    margin-top: 20px;
+    margin-left: 115.29px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #CCCCCC;
 }

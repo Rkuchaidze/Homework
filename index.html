@@ -4,59 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/50c628c7e8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-            <header>
-                <div>
-                    <img src="./Assets/Icons/Group.png" alt="">
-                    <h2>Crowdfund.</h2>
+    <header>
+        <div class="title">
+            <img src="./Assets/Icons/Storefront.png" alt="">
+            <h1>NFT Marketplace</h1>
+        </div>
+        <div class="navbar">
+            <a href="#">Marketplace</a>
+            <a href="#">Rankings</a>
+            <a href="#">Connect a wallet</a>
+            <a href="#">
+                <div class="signup-btn">
+                    <img src="./Assets/Icons/User.png" alt="">
+                    <p>Sign Up</p>
                 </div>
-                <div class="profile">
-                    <img src="./Assets/Images/Image.png" alt="">
-                    <a href="#">Kate B.</a>
-                    <a href="#"><img class="profile-btn" src="./Assets/Icons/Shape.png" alt=""></a>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="main-image">
+            <img src="./Assets/Images/Image Placeholder.png" alt="">
+        </div>
+        <div class="create-account">
+            <h1>Create Account</h1>
+            <p>Welcome! Enter Your Details And Start Creating. Collecting And Selling NFTs.</p>
+            <form action="#">
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="text" placeholder="Email Address" name="email" required>
+                <input type="text" placeholder="Password" name="password" required>
+                <input type="text" placeholder="Confirm Password" name="confirm-password" required>
+                <button>Create account</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="box1">
+                <div class="footer-title">
+                <img src="./Assets/Icons/Storefront.png" alt="">
+                <h1>NFT Marketplace</h1>
                 </div>
-            </header>
-            <main>
-                <div class="text">
-                    <h1>Another Annoying Newsletter</h1>
-                    <p>We invite you to our next annoying newsletter.</p>
-                </div>
-                <div class="input-field">
-                    <p class="signup-text">SIGN UP FOR FREE</p>
-                    <div class="signup">
-                        <form action="#">
-                            <input class="input-bottom" type="text" placeholder="Name" name="name" required>
-                            <input class="input-bottom" type="text" placeholder="E-mail" name="email" required>
-                            <input type="text" placeholder="Password" name="email" required>
-                            <button type="submit" class="submitbtn">Sign Up ></button>
-                        </form>
-                    </div>
-                    <p class="terms-text">By clicking "Sign up" I agree to our <br>
-                        <a class="terms-button" href="#">Terms of Service.</a></p>
-                </div>
-            </main>
-            <footer>
-                <p>© 2019 crowdfund. All Rights Reserved</p>
-                <nav>
-                    <div class="navbar">
-                        <a href="#">CONTACT</a>
-                        <a href="#">HELP</a></li>
-                        <a href="#">TERMS OF USE</a>
-                        <a href="#">PRIVACY POLICY</a>
-                    </div>
-                </nav>
+                <p>NFT marketplace UI created with Anima for Figma.</p>
+                <p>Join our community</p>
                 <div class="socials">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                    <a href="#"><img src="./Assets/Icons/DiscordLogo.png" alt=""></a>
+                    <a href="#"><img src="./Assets/Icons/YoutubeLogo.png" alt=""></a>
+                    <a href="#"><img src="./Assets/Icons/TwitterLogo.png" alt=""></a>
+                    <a href="#"><img src="./Assets/Icons/InstagramLogo.png" alt=""></a>
                 </div>
-            </footer>
+            </div>
+            <div class="explore">
+                <h5>Explore</h5>
+                <a href="#">Marketplace</a>
+                <a href="#">Rankings</a>
+                <a href="#">Connect a wallet</a>
+            </div>
+            <div class="newsletter">
+                <h1>Join our weekly digest</h1>
+                <p>Get exclusive promotions & updates straight to your inbox.</p>
+                <div class="newsletter-input">
+                    <input type="text" placeholder="Enter your email here" name="newsletter-email" required>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p id="trademark">Ⓒ NFT Market. Use this template freely.</p>
+    </footer>
 </body>
 </html>
