@@ -120,3 +120,13 @@ main p {
     justify-content: center;
     box-sizing: border-box;
 }
+
+.screens {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+.screens img {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e09 66.15%);
+}
